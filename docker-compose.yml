@@ -23,14 +23,11 @@ services:
       - 3000:3000
     volumes:
       - ./:/app
+    links:
+      - maildev:maildev
 
   maildev:
       image: djfarrelly/maildev
-      environment:
-        - MAIL_HOST=localhost
-        - MAIL_PORT=1025
-        - MAIL_USERNAME=null
-        - MAIL_PASSWORD=null
       ports:
         - "1080:80"
 
