@@ -87,7 +87,7 @@
                 </div>
 
                 <div class="links">
-                    <a title="Github" href="https://github.com/GouteixAntoine/mesaguser"><i class="fab fa-github" style="font-size: 30px;"></i></a>
+                    <a title="Github" href="https://github.com/GouteixAntoine/mesaguser" target="_blank"><i class="fab fa-github" style="font-size: 30px;"></i></a>
                 </div>
             </div>
         </div>
