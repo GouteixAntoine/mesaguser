@@ -13,3 +13,8 @@ before_script:
 
 script:
   - vendor/bin/phpunit
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_KEY
+  app: $HEROKU_APP
